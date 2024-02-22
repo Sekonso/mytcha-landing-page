@@ -1,0 +1,103 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+:root {
+  --primary-color: #44624a;
+  --secondary-color: #8ba888;
+  --accent-color: #c0cfb2;
+  --neutral-color: #f1ebe1;
+  --highlight-color: #ffffff;
+}
+
+/* Custom scroll bar */
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+::-webkit-scrollbar-track {
+  background: var(--primary-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background: var(--secondary-color);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  background: var(--accent-color);
+  color: var(--primary-color);
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+}
+button:hover {
+  cursor: pointer;
+  background: var(--highlight-color);
+  color: var(--secondary-color);
+}
+button:active {
+  scale: 0.9;
+}
+
+th {
+  text-align: left;
+}
+
+p {
+  line-height: 1.7;
+}
+
+input {
+  height: 30px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  margin-top: 0.5rem;
+  background: white;
+  border: 5px solid white;
+  color: black;
+  outline: none;
+}
+input:focus,
+textarea:focus {
+  border: 5px solid var(--primary-color);
+}

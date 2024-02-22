@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <title>Mytcha tea</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar appear container">
+        <div class="navbar-brand">
+          <i class="fa-solid fa-leaf"></i>
+          <h1 class="navbar-brand-text text-brand">Mytcha</h1>
+        </div>
+        <div class="navbar-navlist">
+          <ul>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#product">Produk</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="navbar-order">
+          <button class="navbar-order-button">Order</button>
+        </div>
+        <div class="navbar-navlist-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="navbar-contain"></div>
+      </nav>
+      <!-- Hero section -->
+      <section class="hero">
+        <h1 class="text-display">MYTCHA TEA</h1>
+        <p>
+          Rasakan ketenangan alam dalam setiap tegukannya, membawa kedamaian di
+          setiap momen.
+        </p>
+        <button>Selengkapnya</button>
+      </section>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <!-- About -->
+      <article id="about" class="about container">
+        <section class="about-section">
+          <h1 class="text-lead">Tentang Myctha</h1>
+          <img src="./assets/tea-leaf.jpg" alt="Green tea leaf" />
+          <p>
+            Berasal dari kebun teh terbaik, daun teh pilihan dipetik secara
+            hati-hati memastikan kualitas tinggi tanpa kompromi. Mytcha Tea
+            menghadirkan warna hijau yang mencolok dan rasa lembut, memberikan
+            kealamian dan kehangatan di setiap tegukannya.
+          </p>
+        </section>
+        <aside class="about-biodata">
+          <img src="./assets/photo-profile.jpeg" alt="Photo profile" />
+          <div class="about-biodata-identity">
+            <h1 class="text-lead">Adriansyah</h1>
+            <p>Mahasiswa</p>
+          </div>
+          <p class="about-biodata-quote">
+            <q
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              praesentium similique iusto. Molestias, asperiores cumque!</q
+            >
+          </p>
+          <div class="about-biodata-social">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <a
+              href="https://github.com/Sekonso/mytcha-landing-page"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </aside>
+      </article>
+
+      <!-- Product -->
+      <article id="product" class="product container">
+        <h1 class="product-header text-lead">PRODUCT</h1>
+        <section class="product-type">
+          <div><i class="fa-solid fa-mug-hot"></i></div>
+          <h1 class="text-lead">Tradisional</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </section>
+        <section class="product-type">
+          <div><i class="fa-solid fa-mug-saucer"></i></div>
+          <h1 class="text-lead">Latte</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </section>
+        <section class="product-type">
+          <div><i class="fa-solid fa-bottle-water"></i></div>
+          <h1 class="text-lead">Botol</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </section>
+        <section class="product-type">
+          <div><i class="fa-solid fa-ice-cream"></i></div>
+          <h1 class="text-lead">Ice Cream</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </section>
+      </article>
+
+      <!-- Review -->
+      <article id="review" class="review container">
+        <h1 class="text-lead">REVIEW</h1>
+        <img src="./assets/lego.jpg" alt="Reviewer picture" />
+        <blockquote>
+          <p>
+            <q>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
+              deserunt quae vel voluptate fugiat ullam itaque nisi repudiandae
+              dolore blanditiis.
+            </q>
+          </p>
+          <footer>- Reviewer</footer>
+        </blockquote>
+      </article>
+
+      <!-- Contact -->
+      <article id="contact" class="contact container">
+        <h1 class="text-lead">CONTACT US</h1>
+        <form class="contact-form">
+          <div>
+            <label for="name">Nama</label>
+            <input type="text" id="name" placeholder="Masukkan nama" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Masukkan email"
+              required
+            />
+          </div>
+          <div>
+            <label for="message">Pesan</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Masukkan pesan"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <h1 class="text-lead">Mytcha Tea</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+        laborum iste, eos id harum accusamus commodi! Alias consectetur
+        veritatis sed magnam. Laboriosam ad incidunt dicta?
+      </p>
+      <div class="footer-social">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <div class="copyright">
+        <p>
+          Copykanan &copy;2024 Adriansyah. All kanan reserved.
+          <br />
+          Contact us: mytchatea@gmail.com
+        </p>
+      </div>
+    </footer>
+
+    <!-- Fontawesome kit -->
+    <script
+      src="https://kit.fontawesome.com/4d69af1ea6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script JS untuk responsifitas navbar -->
+    <script src="./script/script.js"></script>
+  </body>
+</html>
