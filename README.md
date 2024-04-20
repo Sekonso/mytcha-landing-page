@@ -15,8 +15,5 @@ Dengan kriteria:
 - Struktur website berbeda dari contoh yang diberikan Dicoding (Nilai tambahan)
 - Menambahkan Javascript untuk menambah interaktifitas website (Nilai tambahan)
 
-Proyek bisa dikunjungi lewat [github page](https://choosealicense.com/licenses/mit/) atau bisa di clone dan langsung dijalankan di server localhost
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Proyek bisa dikunjungi lewat [github page](https://sekonso.github.io/mytcha-landing-page/) atau bisa di clone dan langsung dijalankan di server localhost
 
